@@ -1,0 +1,31 @@
+body{
+    font-family: 'PT Serif', serif;
+
+}
+.page {
+    display: none;
+  }
+  
+  #loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: white; */
+    background-image: url("../images/Double Ring-1s-200px.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: cadetblue;
+    padding: 15px;
+    border-radius: 100%;
+    color: white;
+  }
