@@ -60,3 +60,17 @@ body{
 .hei {
   height: 50px;
 }
+.my-cardd{
+    box-shadow: 0 0 black;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.35);
+}
+/* .my-cardd:hover{
+  transform: scale(1.04);
+  transition: 1s;
+} */
+.my-image:hover{
+  transform: scale(1.07);
+  transition: 1s;
+}
