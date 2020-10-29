@@ -45,4 +45,18 @@ body{
     font-weight: bolder;
     border-radius: 100px;
   }
- 
+  .bla {
+    background-color: white;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    color: #484a43;
+}
+.bla:hover{
+  color: white;
+  background-color: #1b1b1b;
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hei {
+  height: 50px;
+}
