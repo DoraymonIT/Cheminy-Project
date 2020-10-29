@@ -74,3 +74,15 @@ body{
   transform: scale(1.07);
   transition: 1s;
 }
+.my-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #484a43;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(152 152 152);
+}
