@@ -1,108 +1,103 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../style/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>
-      CHEMINEE INTER | Installation professional des cheminys au Maroc
-    </title>
-  </head>
-  <style>
-    form.index-search-form {
-      position: relative;
-      display: inline-flex;
-    }
+<html>
+<head>
+  <title>Client</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/gallery.css">
+  <link rel="stylesheet" href="../style/style1.css">
+  <link rel="stylesheet" href="../style/client.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark"style="background: rgb(17,16,17);
+    background: linear-gradient(270deg, rgba(17,16,17,1) 0%, rgba(133,82,82,1) 50%, rgba(249,5,5,1) 100%)"
+  >
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
 
-    button[name="submit"] {
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
-
-    input.search-box {
-      width: 350px;
-    }
-  </style>
-  <body>
-    <!-- <div id="loading"></div> -->
-    <header>
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark"
-        style="box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.85)"
-      >
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto"></ul>
-          <form class="form-inline my-2 my-lg-0">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">
-                  <i class="fa fa-home" aria-hidden="true"></i> Home
-                  <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </form>
-        </div>
-      </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"></ul>
+      <form class="form-inline my-2 my-lg-0">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              <i class="fa fa-home" aria-hidden="true"></i> Home
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="client.html">client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </nav>
     </header>
-    <div class="container-fluid">
+    <div class="bg">
+        <h1 class="ml2">Sunny mornings</h1>
+    </div>
+    <hr>
+    <h1 style="width: 100%;text-align: center; border-bottom: 1px solid #000; line-height: 0.1em;margin: 10px 0 20px;"> <span style=" background:#fff; padding:0 10px;">  Entreprise En <strong>Chiffre</strong></span></h1>
+    <hr>
+        <!--  <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 back">
           <div class="text">
-            <h1>Voila Le CHEMINEE</h1>
+            <h1>OUR SERVICE</h1>
             <h4>
               Best chemeny in the world , We have the best<br />
               professiional staffs to help you and <br />
@@ -116,17 +111,13 @@
       <div
         class="row"
         style="background-color: #484a43; padding: 10px; color: white"
-      >
+      >-->
         <div class="col-md-12">
-          <h3 style="text-align: center">
-            <i class="fa fa-area-chart" aria-hidden="true"></i> Chemeny Chariika
-            en Chiffres
-          </h3>
           <br />
           <div class="row" style="text-align: center">
             <div class="col-md-4">
               <img
-                src="../images/employee.svg"
+                src="../image/employee.svg"
                 width="20%"
                 alt="employes number"
               />
@@ -136,7 +127,7 @@
             </div>
             <div class="col-md-4">
               <img
-                src="../images/exchange.svg"
+                src="../image/exchange.svg"
                 width="20%"
                 alt="exchange number"
               />
@@ -146,7 +137,7 @@
             </div>
             <div class="col-md-4">
               <img
-                src="../images/project-management.svg"
+                src="../image/project-management.svg"
                 width="20%"
                 alt="project number"
               />
@@ -157,79 +148,33 @@
           </div>
         </div>
       </div>
-      <br />
-      <div class="row">
-        <div class="col-md-12" style="text-align: center">
-          <h1 style="font-weight: 900; text-align: center">NOS SERVICES</h1>
-        </div>
-      </div>
+      <hr>
+      <h1 id="service"style=" font-weight: 400px;width: 100%;text-align: center; border-bottom: 1px solid #000; line-height: 0.1em;margin: 10px 0 20px;"> <span style=" background:#fff; padding:0 10px;">  NOS <strong>Service</strong></span></h1>
+      <hr>
       <br />
       <!-- The main services -->
-      <div class="row">
-        <div class="col-md-12">Service 1 ##</div>
-      </div>
-      <!-- The short litle services -->
-      <div class="row">
-        <div class="col-md-4">
-          <div class="my-cardd">
-            <img
-              src="../images/acceuil2.jpg"
-              class="my-image"
-              width="100%"
-              alt="service2"
-            />
-            <hr />
-            <h4>Service 2</h4>
-            <hr />
-            <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              aliquid nihil unde magni, voluptate dolore, natus in susc ipit
-              excepturi nulla accusamus nu .
-            </h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="my-cardd">
-            <h4>Service 2</h4>
-            <img
-              src="../images/acceuil.jpg"
-              class="my-image"
-              width="100%"
-              alt="service2"
-            />
-            <hr />
-            <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              aliquid nihil unde magni, voluptate dolore, natus in susc ipit
-              excepturi nulla accusamus nu .
-            </h6>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="my-cardd">
-            <h4>Service 2</h4>
-            <img
-              src="../images/acceuil1.jpg"
-              class="my-image"
-              width="100%"
-              alt="service2"
-            />
-            <hr />
-            <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-              aliquid nihil unde magni, voluptate dolore, natus in susc ipit
-              excepturi nulla accusamus nu .
-            </h6>
-          </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../image/service.jpg">
+           </div>
+           <div class="col-md-6">
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem dolores quis eius nisi, quos voluptatibus magni, deserunt quo recusandae eaque minus dolorum nihil consectetur accusantium laborum ex odit voluptate nulla.</p>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quaerat eaque doloribus! Harum nesciunt ab dignissimos ullam, commodi expedita. Vitae neque dolore consectetur vel illo rem, mollitia officiis saepe quos.</p>
+            </div>
         </div>
       </div>
+      
+    
       <!-- Ici 5ssna ndiru slides dyaal les testimonials dyal anciens clients w ndiruhum tayduzu automatic b7al *CAROUSEL* -->
       <div class="row">
         <img
-          src="../images/—Pngtree—black world map_3294087.png"
+          src="../image/—Pngtree—black world map_3294087.png"
           alt="lkdsdj"
           width="100%"
         />
+      </div>
+      <!--
         <div class="col-md-3"></div>
         <div class="col-md-6">
           <h4>
@@ -239,7 +184,7 @@
         <div class="col-md-3"></div>
       </div>
       <br />
-      <!-- SEction : Contact Us  -->
+      SEction : Contact Us  
       <div class="row">
         <div class="col-md-7">Adresse</div>
         <div class="col-md-5" style="text-align: center;">
@@ -319,6 +264,7 @@
         2020
       </p>
     </div>
+  -->
   </body>
   <!-- <a
     title="Vers le Haut"
@@ -343,6 +289,27 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"
   ></script>
+  <script>
+    var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+  </script>
   <!-- <script src="../js/main.js"></script> -->
   <!-- <script src="../js/scroll.js"></script> -->
 </html>
