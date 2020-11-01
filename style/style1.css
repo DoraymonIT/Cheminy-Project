@@ -36,6 +36,9 @@ body {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+  .description{
+    max-width: 300px;
+  }
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -44,7 +47,7 @@ body {
   h1.ml2{
     position: absolute;
     bottom: 55px;
-    left: 150px;
+    left: 90px;
     font-weight: 700;
     font-size: 2.5em;
     color: white;
