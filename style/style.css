@@ -9,19 +9,14 @@
 .mySlides {
   display: none;
 }
-header{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
+
 .bg {
   position: relative;
   /* The image used */
-  background-image:url("../image/backgr.png");
+  background-image:url("../image/chiminie\ Background.jpg");
   /* Full height */
-  height: 90%; 
+  height: 100%; 
   /* Center and scale the image nicely */
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -47,6 +47,7 @@ body {
     left: 150px;
     font-weight: 700;
     font-size: 2.5em;
+    color: white;
   }
   .ml2 .letter {
     display: inline-block;
@@ -119,8 +120,27 @@ body {
     .bg{
       position: relative;
     }
+    
 }
-
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+color: white;
+height: 150px;
+width: 450px;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 20px;
+letter-spacing: 0.6px;
+word-spacing: 1.4px;
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: capitalize;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 /*@media screen and (max-width: 600px) {
   .column {
@@ -129,3 +149,4 @@ body {
     max-width: 100%;
   }
 }
+  
