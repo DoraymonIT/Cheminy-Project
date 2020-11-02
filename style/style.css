@@ -52,22 +52,23 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 .page {
-    display: none;
-  }
-  
-  #loading {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    width: 100vw;
-    height: 100vh;
-    /* background-color: white; */
-    background-image: url("../images/Double Ring-1s-200px.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  display: none;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  background-image: url("../image/Double\ Ring-1s-200px.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
   
 .back-to-top {
     position: fixed;
